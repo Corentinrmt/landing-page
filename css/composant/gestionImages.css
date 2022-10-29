@@ -1,0 +1,42 @@
+.imagePhoto{
+    display: flex;
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    animation: rotation 5s infinite;
+}
+
+.imagelogo{
+    display: flex;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+
+@keyframes rotation{
+    from{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(33deg);
+    }
+    75%{
+        transform: rotate(-33deg);
+    }
+
+}
+
+@media screen and (min-width:1024px){
+
+    .imagelogo{
+        width: 70%;
+    }
+}

@@ -1,0 +1,32 @@
+.groupe{
+    display: flex;
+    flex-direction: column;
+}
+
+.imageGroupe{
+    width: 80%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    transition: all 2s;
+}
+.imageGroupe:hover{
+    filter: brightness(50%);
+    scale: 110%;
+}
+
+
+@media screen and (min-width:1024px){
+    .imageGroupe{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .groupe{
+        display: flex;
+        flex-direction: row;
+        flex-wrap:wrap;
+    }
+}

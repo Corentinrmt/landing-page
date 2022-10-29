@@ -1,0 +1,12 @@
+header{
+    background:linear-gradient(to right,lightcyan,antiquewhite);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}

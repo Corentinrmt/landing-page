@@ -1,0 +1,27 @@
+@import url('composant/header.css');
+@import url('composant/titre.css');
+@import url('composant/gestionImages.css');
+@import url('composant/footer.css');
+@import url('composant/texte.css');
+@import url('composant/gestionGroupe.css');
+
+body{
+    margin: 0;
+    background: linear-gradient(to bottom right,lightblue,antiquewhite);
+}
+
+.lienlogo{
+    width: 100%;
+}
+
+
+
+@media screen and (min-width:1024px){
+    .lienImage{
+        width: 50%;
+    }
+
+    .lienlogo{
+        width: 33%;
+    }
+}

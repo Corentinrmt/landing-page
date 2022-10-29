@@ -1,0 +1,24 @@
+p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 120%;
+    flex-wrap: wrap;
+    color: darkslategrey;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 120%;
+    flex-wrap: wrap;
+    color: black;
+    padding-left:1%;
+    padding-right: auto;
+    margin-right:auto;
+    margin-left: auto;
+}
